@@ -1,0 +1,14 @@
+{
+  "name": "ytdl-bot",
+  "version": "1.0.0",
+  "description": "A ~~shitty~~ ok ytdl-core bot I made because why not",
+  "main": "src/index.js",
+  "repository": "git@github.com:Sxmurai/ytdl-bot.git",
+  "author": "Sxmurai <gavrw0607@gmail.com>",
+  "license": "WTFPL",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ytdl-core": "^4.4.3"
+  }
+}
