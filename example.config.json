@@ -1,0 +1,12 @@
+{
+  "token": "",
+  "prefix": "..",
+  "apis": {
+    "youtube": ""
+  },
+  "colors": {
+    "error": "#f55e53",
+    "normal": "#3377de",
+    "success": "#1be37c"
+  }
+}
