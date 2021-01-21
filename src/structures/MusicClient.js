@@ -1,4 +1,4 @@
-const { Client } = require("discord.js");
+const { Client, Collection } = require("discord.js");
 const { join } = require("path");
 
 const { CommandLoader, EventLoader } = require("./loaders");
@@ -29,6 +29,8 @@ module.exports = class MusicClient extends (
     this.events = new EventLoader(this, {
       path: join(process.cwd(), "src", "events"),
     });
+
+    this.players = new Collection();
   }
 
   // override login

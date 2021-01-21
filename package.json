@@ -10,5 +10,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "ytdl-core": "^4.4.3"
+  },
+  "devDependencies": {
+    "@discordjs/opus": "^0.3.3"
   }
 }
